@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mirzaei's Task 4_09</title>
+    <meta name="description" content="Task 4_09" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../Task_4_09/css/monta.css" />
+    <link rel="stylesheet" href="../Task_4_09/css/montav2.css" />
+    <link rel="stylesheet" href="../Task_4_09/css/mystyle4.css" />
+  </head>
+
+  <body>
+    <div class="m--monta-app">
+      <div class="m--header">
+        <div>
+          <div class="navbar is-fixed-top has-shadow-1">
+            <div class="navbar-brand m--nav-tablet">
+              <a class="navbar-item is-hidden-desktop">
+                <span class="mi mi-hamburger is-2x"></span>
+              </a>
+              <a class="navbar-item" href="javascript:;">
+                <img
+                  alt="مٌـنتا، آموزش و ارزیابی هوشمند"
+                  src="../Task_4_09/img/logo-monta.png"
+                />
+              </a>
+            </div>
+            <div class="navbar-menu">
+              <div class="navbar-start">
+                <a class="navbar-item" title="خانه">خانه</a>
+                <div class="navbar-item has-dropdown is-hoverable is-mega">
+                  <a class="navbar-link" title="میزکار">میزکار</a>
+                  <div class="navbar-dropdown">
+                    <div class="container is-fluid">
+                      <div class="columns">
+                        <div class="column">
+                          <a
+                            class="navbar-item title is-6 is-mega-menu-title"
+                            title="ارزیابی"
+                            >ارزیابی</a
+                          >
+                          <a class="navbar-item" title="ساخت آزمون"
+                            >ساخت آزمون</a
+                          >
+                          <a class="navbar-item" title="مدیریت آزمون"
+                            >مدیریت آزمون</a
+                          >
+                          <a class="navbar-item" title="ساخت آزمون غیرمنتایی"
+                            >ساخت آزمون غیرمنتایی</a
+                          >
+                          <a class="navbar-item" title="شبیه ساز کنکور"
+                            >شبیه ساز کنکور</a
+                          >
+                        </div>
+                        <div class="column">
+                          <a
+                            class="navbar-item title is-6 is-mega-menu-title"
+                            title="آموزش"
+                            >آموزش</a
+                          >
+                          <a class="navbar-item" title="جستجوی درس نامه"
+                            >جستجوی درس نامه</a
+                          >
+                          <a class="navbar-item" title="کلاس آنلاین"
+                            >کلاس آنلاین</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="navbar-item">دعوت از دوستان</a>
+                <a class="navbar-item">گشت و گذار</a>
+              </div>
+              <div class="navbar-end">
+                <a class="navbar-item" title="پول">
+                  <span>10,053,015</span>
+                  <span class="mi mi-coin-charge half-space-right is-2x"></span>
+                </a>
+                <a class="navbar-item" title="درآمد">
+                  <span>0</span>
+                  <span class="mi mi-income half-space-right is-2x"></span>
+                </a>
+                <a class="navbar-item" title="اعتبار">
+                  <span>80</span>
+                  <span class="mi mi-diamond half-space-right is-2x"></span>
+                </a>
+                <a class="navbar-item" title="رخدادها">
+                  <span class="mi mi-bell is-2x" data-badge="0"></span>
+                </a>
+                <div class="navbar-item is-hoverable m--user-menu has-dropdown">
+                  <a class="navbar-link" href="javascript:;">
+                    <div class="image is-32x32">
+                      <img class="is-rounded" src="../Task_4_09/img/222.png" />
+                      <span class="badge is-badge-danger is-badge-small"></span>
+                    </div>
+
+                    <div>پرهام</div>
+                  </a>
+                  <div class="navbar-dropdown">
+                    <a class="navbar-item" title="تغییر رمز کاربری"
+                      >تغییر رمز کاربری</a
+                    >
+                    <a class="navbar-item" title="خروج">خروج</a>
+                  </div>
+                </div>
+                <a class="navbar-item is-hidden" href="javascript:;">
+                  ورود/ثبت نام
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="navbar is-fixed-bottom is-hidden-tablet m--nav-mobile-bottom IN55Y-cc-i"
+          >
+            <div class="columns is-mobile is-gapless">
+              <div class="column has-centered-children IN55Y-cc-tb">
+                <a class="button is-5 is-main has- half-space">
+                  <span class="mi-shop-white is-pre is-size-5"></span>
+                  <span>افزودن به سبد خرید</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal m--mobile-menu-contents is-hidden-desktop">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <div class="modal-card-head">
+              <a class="navbar-item" href="javascript:;">
+                <span class="mi mi-right"></span>
+              </a>
+              <a class="navbar-item m--logo" href="javascript:;">
+                <img
+                  alt="مٌـنتا، آموزش و ارزیابی هوشمند"
+                  src="../Task_4_09/img/222.png"
+                />
+              </a>
+            </div>
+            <div class="modal-card-body">
+              <div class="menu">
+                <div class="is-flex-row-space">
+                  <a
+                    class="is-flex-row-start has-text-black is-hidden"
+                    title="پول"
+                  >
+                    <span></span>
+                    <span
+                      class="mi mi-coin-charge half-space-right is-2x"
+                    ></span>
+                  </a>
+                  <a
+                    class="is-flex-row-start has-text-black is-hidden"
+                    title="درآمد"
+                  >
+                    <span></span>
+                    <span class="mi mi-income half-space-right is-2x"></span>
+                  </a>
+                  <a
+                    class="is-flex-row-start has-text-black is-hidden"
+                    title="اعتبار"
+                  >
+                    <span></span>
+                    <span class="mi mi-diamond half-space-right is-2x"></span>
+                  </a>
+                </div>
+                <ul class="menu-list">
+                  <li>
+                    <a title="جستجوی آزمون">جستجوی آزمون</a>
+                  </li>
+                  <li>
+                    <a title="خرید">خرید</a>
+                  </li>
+                </ul>
+                <div>
+                  <a
+                    class="is-flex-row-start has-text-black is-hidden"
+                    title="رخدادها"
+                  >
+                    <span> رخدادها </span>
+                    <span class="mi mi-bell is-2x half-space-right"></span>
+                  </a>
+                </div>
+                <div>
+                  <a
+                    class="is-flex-row-start has-text-black space-top is-hidden"
+                    title="تغییر رمز کاربری"
+                  >
+                    <span> تغییر رمز کاربری </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="modal-card-foot">
+              <a class="button is-size-5">
+                <span class="mi mi-logout is-2x icon"></span>
+                <span>وارد شوید</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="m--main-panel">
+        <div
+          class="m--control-container container is-fullhd space-14-mobile-n is-paddingless-bottom"
+        >
+          <div class="columns m--main-contents">
+            <div
+              class="column is-12-mobile has-background-white m--content-panel"
+            >
+              <div class="columns is-marginless">
+                <div class="column is-2 is-flex-column-center">
+                  <div class="is-flex">
+                    <p
+                      class="is-hidden-desktop justify-content-center space-top space-top space-left space-bottom"
+                    >
+                      ادبیات فارسی 3 (ویژه انسانی)
+                    </p>
+                    <div class="space-top is-hidden-desktop">
+                      <i class="mi-Share"></i>
+                      <i class="mi-Eye"></i>
+                      <i class="mi-Like-outlined---24px"></i>
+                    </div>
+                  </div>
+                  <img
+                    class="image-book book-size-mobile"
+                    src="../Task_4_09/img/ketab.png"
+                  />
+                </div>
+                <div class="column is-flex-column-space-alignless">
+                  <div class="is-hidden-mobile space-between-fullwidth">
+                    <div class="content">
+                      <h3>ادبیات فارسی 3 (ویژه انسانی)</h3>
+                    </div>
+                    <div class="is-hidden-mobile">
+                      <span class="half-space-left">18,392</span>
+                      <i class="mi-Like-outlined---24px space-left"></i>
+                      <span class="half-space-left">39</span>
+                      <i class="mi-Share space-left"></i>
+                      <i class="mi-Eye"></i>
+                    </div>
+                  </div>
+                  <div
+                    class="wrapped-flex flex-start space-12-bottom-n is-hidden-mobile"
+                  >
+                    <div class="tag is-warning half-space">
+                      دبیرستان دوره دوم
+                    </div>
+                    <div class="tag is-warning half-space">
+                      دبیرستان دوره اول
+                    </div>
+                    <div class="tag is-warning half-space">
+                      ابتدایی دوره دوم
+                    </div>
+                    <div class="tag is-warning half-space">دبستان دوره اول</div>
+                  </div>
+                  <div class="columns">
+                    <div class="column is-7">
+                      <h6>
+                        اشتراک ویژه دانش‌آموزان
+                        <a
+                          href="httotalPrice://www.monta.ir"
+                          class="mi-Info"
+                        ></a>
+                      </h6>
+                      <div class="wrapped-flex">
+                        <div
+                          id="month_1"
+                          onclick="monthSelector()"
+                          class="month-selector half-space checked-border"
+                        >
+                          <i
+                            class="mi-Checked-outlined---16px checked default-display-checked half-space-left"
+                          ></i>
+                          1 ماه
+                        </div>
+                        <div
+                          id="month_3"
+                          onclick="document.getElementById('totalPrice').innerHTML = totalPrice_3 ()"
+                          class="month-selector month-selected half-space"
+                        >
+                          <i
+                            class="mi-Checked-outlined---16px checked half-space-left default-display-checked"
+                          ></i>
+                          3 ماه
+                        </div>
+                        <div
+                          id="month-6"
+                          onclick="document.getElementById('totalPrice').innerHTML = totalPrice_6 ()"
+                          class="month-selector half-space"
+                        >
+                          <i
+                            class="mi-Checked-outlined---16px checked half-space-left default-display-checked"
+                          ></i>
+                          6 ماه
+                        </div>
+                        <div
+                          id="month-9"
+                          onclick="document.getElementById('totalPrice').innerHTML = totalPrice_9 ()"
+                          class="month-selector half-space"
+                        >
+                          <i
+                            class="mi-Checked-outlined---16px checked half-space-left default-display-checked"
+                          ></i>
+                          9 ماه
+                        </div>
+                        <div
+                          id="month-12"
+                          onclick="document.getElementById('totalPrice').innerHTML = totalPrice_12 ()"
+                          class="month-selector half-space"
+                        >
+                          <i
+                            class="mi-Checked-outlined---16px checked half-space-left default-display-checked"
+                          ></i>
+                          12 ماه
+                        </div>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <h6>
+                        اشتراک ویژه مدارس
+                        <a
+                          href="httotalPrice://www.monta.ir"
+                          class="mi-Info"
+                        ></a>
+                      </h6>
+
+                      <p
+                        id="month-school"
+                        onclick="document.getElementById('totalPrice').innerHTML = totalPriceSchool_12 ()"
+                        class="month-selector half-space"
+                      >
+                        <i
+                          class="mi-Checked-outlined---16px checked half-space-left default-display-checked"
+                        >
+                        </i>
+                        12 ماه
+                      </p>
+
+                      <div></div>
+                    </div>
+                  </div>
+                  <div class="is-flex-row-space">
+                    <div class="is-flex-row-center price-for-mobile">
+                      <p>قیمت کل: <span id="totalPrice"></span> ریال</p>
+                      <p>
+                        (حق اشتراک:
+                        <span id="subscriptionPrice"></span> ریال + شارژ:
+                        <span id="chargePrice"></span> ریال)
+                      </p>
+                    </div>
+                    <button class="button is-main is-hidden-mobile">
+                      <span class="icon">
+                        <i class="mi-shop-dark"></i>
+                      </span>
+                      <span>افزودن به سبد خرید</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="columns m--main-contents">
+            <div
+              class="column is-12-mobile has-background-white m--content-panel"
+            >
+              <div class="columns featurs-panel is-marginless">
+                <div class="column mobile-justify-start is-flex-row-center">
+                  <img
+                    class="image is-64x64"
+                    src="../Task_4_09/img/icon1.PNG"
+                  />
+                  <div class="content space-right">
+                    <h4>1155 سوال</h4>
+                    <h8 class="has-text-grey-lighter">سوال چهار گزینه‌ای</h8>
+                  </div>
+                </div>
+                <div class="column mobile-justify-start is-flex-row-center">
+                  <div class="is-flex is-centered">
+                    <img
+                      class="image is-64x64"
+                      src="../Task_4_09/img/icon2.PNG"
+                    />
+                    <div class="content space-right">
+                      <h4>716 سوال</h4>
+                      <h8 class="has-text-grey-lighter">سوال تشریحی</h8>
+                    </div>
+                  </div>
+                </div>
+                <div class="column mobile-justify-start is-flex-row-center">
+                  <div class="is-flex is-centered">
+                    <img
+                      class="image is-64x64"
+                      src="../Task_4_09/img/icon3.PNG"
+                    />
+                    <div class="content space-right">
+                      <h4>0 سوال</h4>
+                      <h8 class="has-text-grey-lighter"
+                        >سوال به همراه پاسخ ویدیویی</h8
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="column mobile-justify-start is-flex-row-center">
+                  <div class="is-flex is-centered">
+                    <img
+                      class="image is-64x64"
+                      src="../Task_4_09/img/icon4.PNG"
+                    />
+                    <div class="content space-right">
+                      <h4>12 درسنامه</h4>
+                      <h8 class="has-text-grey-lighter"
+                        >درسنامه به تفکیک فصل</h8
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="columns m--main-contents">
+            <div
+              class="column is-12-mobile has-background-white m--content-panel is-paddingless"
+            >
+              <div class="tabs is-medium is-marginless">
+                <ul>
+                  <li class="is-active">
+                    <a>
+                      <span>پنل شماره یک</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <span>پنل شماره دو</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <span>پنل شماره سه</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a>
+                      <span>پنل شماره چهار</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <div id="panel-1" class="panel-box">
+                  <h2>پنل شماره 1</h2>
+                </div>
+                <div id="panel-2" class="panel-box">
+                  <h2>پنل شماره 2</h2>
+                </div>
+                <div id="panel-3" class="panel-box">
+                  <h2>پنل شماره 3</h2>
+                </div>
+                <div id="panel-4" class="panel-box">
+                  <h2>پنل شماره 4</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/Task_4.js"></script>
+  </body>
+</html>

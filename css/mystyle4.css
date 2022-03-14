@@ -1,0 +1,95 @@
+@media only screen and (max-width: 768px) {
+  .book-size-mobile {
+    display: flex;
+    justify-content: center;
+    width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-justify-start {
+    justify-content: flex-start !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .price-for-mobile {
+    display: block !important;
+    font-size: 85%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .featurs-panel .column:not(:last-child) {
+    border-left: 2px solid #ddd;
+  }
+}
+
+.image-book {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.month-selector {
+  background-color: white;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 10px 0 lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  width: 8.4rem;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.panel-box {
+  background-color: white;
+  padding: 1rem;
+  border-bottom-right-radius: 20px;
+  border: 1px #dbdbdb solid;
+  border-top: none;
+  border-bottom-left-radius: 20px;
+}
+
+.is-centered {
+  justify-content: center;
+  align-items: center;
+}
+
+.space-between-fullwidth {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.checked {
+  color: green;
+}
+
+.month-selected {
+  border: 1px solid green;
+}
+
+.month-selected .checked {
+  display: inline;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.is-flex-column-space-alignless {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.default-display-checked {
+  display: none;
+}
